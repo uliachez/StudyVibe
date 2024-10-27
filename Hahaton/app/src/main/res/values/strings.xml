@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name1"></string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="app_name_chat">StudyVibeChat</string>
+    <string name="statistica_intro">Привет, user! Я твой личный помощник Вайбик. Хочешь ли ты узнать статистику за прошлую неделю? Или же ты бы хотел получить от меня совет?</string>
+    <string name="statistica1">В течение недели ученик проявил активность на уроках и выполнил большинство заданий. Однако имеются некоторые области, требующие внимания. \n Анализ успеваемости \n - Математика: Ученик показал хорошие результаты, активно участвует в уроках. \n- Русский язык: Достигнута высокая средняя оценка</string>
+    <string name="button1">Статистика</string>
+    <string name="button2">Совет</string>
+    <string name="sovety_intro">Выбери категорию, в которой ты хочешь получить совет:\n 1)Советы по улучшению успеваемости\n2)Советы по внеклассным мероприятиям\n3)Советы, которые помогут завести друзей</string>
+</resources>

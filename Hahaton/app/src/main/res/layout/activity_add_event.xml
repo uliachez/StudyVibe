@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Назад кнопка -->
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/icon_back"
+        android:background="@null"
+        android:contentDescription="Назад" />
+
+    <!-- Заголовок -->
+    <TextView
+        android:id="@+id/addEventTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="Добавить событие"
+        android:textColor="@color/black"
+        android:layout_marginTop="40dp"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Поле для названия события -->
+
+    <EditText
+        android:id="@+id/eventName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addEventTitle"
+        android:layout_marginTop="16dp"
+        android:hint="Название"
+        android:backgroundTint="@color/blue2"
+        android:padding="12dp"
+        android:inputType="textCapSentences"/>
+
+    <!-- Поле для времени -->
+    <EditText
+        android:id="@+id/eventTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eventName"
+        android:layout_marginTop="16dp"
+        android:hint="Время"
+        android:backgroundTint="@color/blue2"
+        android:padding="12dp"
+        android:inputType="textCapSentences"/>
+
+    <!-- Поле для места -->
+    <EditText
+        android:id="@+id/eventLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eventTime"
+        android:layout_marginTop="16dp"
+        android:hint="Место"
+        android:backgroundTint="@color/blue2"
+        android:padding="12dp"
+        android:inputType="textCapSentences"/>
+
+    <!-- Кнопка "Добавить" -->
+    <Button
+        android:id="@+id/btnSaveEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eventLocation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/blue2"
+        android:text="Добавить"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
